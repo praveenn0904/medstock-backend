@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://medstock1.netlify.app/',
+  origin: 'https://medstock-backend-oymi.onrender.com',
   credentials: true
 }));
 app.use(express.json());
