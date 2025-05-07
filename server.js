@@ -7,7 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://medstock1.netlify.app/',
+  origin: 'http://localhost:5173',
   credentials: true
 }));
 app.use(express.json());
